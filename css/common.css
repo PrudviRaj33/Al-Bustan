@@ -1,0 +1,19 @@
+:root {
+  --main-bg-color: coral;
+  --main-txt-color: blue;  
+  --main-padding: 15px;  
+  --font-all-h1:20px;   
+  --padding-all-section:5pc;    
+}
+.p_5{
+    padding: var(--padding-all-section);
+}
+
+/*Example*/
+
+/*
+ {
+  background-color: var(--main-bg-color);
+  color: var(--main-txt-color);  
+  padding: var(--main-padding);
+}*/

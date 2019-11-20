@@ -1,0 +1,12 @@
+/*Styles of contact Us page*/
+.address ul {
+    list-style-type: none;
+}
+
+.address li {
+    padding-bottom: 5px;
+}
+
+.address li img {
+    padding-right: 5px
+}
