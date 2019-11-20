@@ -1,0 +1,115 @@
+.projects_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.5)),url(../image/home_1_slider_2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #00b1b8;
+    align-items: center;
+    text-align: center;
+    color: #fff !important;
+}
+.bg_clr{
+    background-color: #efeded;
+}
+
+/*button*/
+.disc_more{
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin-top: 50px;
+}
+.disc_more.orange {
+    color: #fff;
+    background-color: #ff5000;
+    background: linear-gradient(0deg,#fff 50%,#ff5000 0);
+    background-size: 100% 200%;
+    background-position: 0 0;
+    transition: all .5s ease-out;
+    border: 1px solid #fff;
+}
+.disc_more.orange:hover {
+    color: #ff5000!important;
+    background-position: 100% 100%;
+    border: 1px solid #ff5000;
+}
+
+.disc_more {
+    padding: 25px 60px 25px 50px;
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 1.4rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.disc_more.orange:hover:before {
+    border-right: 2px solid #ff5000;
+    border-bottom: 2px solid #ff5000;
+}
+.disc_more.orange:before {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all .5s ease-out;
+}
+.disc_more:hover:before {
+    animation: e .3s linear;
+    -webkit-animation: e .3s linear;
+    -moz-animation: e .3s linear;
+    -o-animation: e .3s linear;
+    -ms-animation: e .3s linear;
+}
+.disc_more:before {
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+.disc_more.orange:hover:after {
+    transform: translateY(0);
+}
+/*END OF button*/
+
+
+
+
+
+
+.poultry img,.Farms img{
+    width: 100%;
+}
+.dpsly_flx{
+    display: flex;
+    justify-content: center;
+}
+.poultry_text{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 4pc;
+    
+}
+.poultry_text h3{
+    color: #6fb32c;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.poultry_text p{
+        transition: color .3s ease;
+        font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.poultry_text p:hover{
+     color: #6fb32c;
+}
+.poultry_img{
+    padding: 0;
+    display: flex;
+}

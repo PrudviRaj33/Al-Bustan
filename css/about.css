@@ -1,0 +1,107 @@
+.about_section{
+        color: #fff;
+    background-color: #023a7c;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.5)),url(../images/home_1_slider_2.jpg);
+  height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+     display: flex; 
+     text-align: center; 
+     justify-content: center; 
+    align-items: center;
+}
+.about_heroimg
+{
+    margin: 2pc 0;
+}
+.our_mission{
+    text-align: center;
+   margin: 2pc 0;
+}
+.our_mission h2{
+    margin-top: 0;
+}
+.mission_img img,
+.vision_section img {
+    width: 70%;
+}
+.vision_section{
+   margin: 2pc 0;
+}
+.core_value,.certification_section{
+     margin: 2pc 0;
+}
+.bg_clr_about{
+        background-color: #efeded;
+}
+
+.core_value ul li {
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 15px 20px 17px;
+}
+
+.core_value ul li:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background-color: #101010;
+    transition: opacity .55s cubic-bezier(.215, .61, .355, 1), -webkit-transform .55s cubic-bezier(.215, .61, .355, 1);
+    transition: transform .55s cubic-bezier(.215, .61, .355, 1), opacity .55s cubic-bezier(.215, .61, .355, 1);
+    transition: transform .55s cubic-bezier(.215, .61, .355, 1), opacity .55s cubic-bezier(.215, .61, .355, 1), -webkit-transform .55s cubic-bezier(.215, .61, .355, 1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+    opacity: .15;
+}
+
+.core_value ul li:focus {
+    opacity: 1;
+}
+
+.core_value ul li:hover:after {
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+    opacity: 1;
+
+}
+
+.core_value ul li:after {
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-400px);
+
+}
+
+.core_value h2 {
+    text-align: center;
+}
+
+.certifi_wrap img {
+    width: 100%;
+}
+
+.certification_section .title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    background: #cdcdce;
+    height: 60px;
+    text-align: center;
+    padding: 17px 15px;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.certifi_wrap:hover .title {
+    background: #1b1d21;
+}
+
+.certification_section {
+    justify-content: center;
+    display: flex;
+}
